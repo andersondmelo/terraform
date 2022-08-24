@@ -1,6 +1,6 @@
 # terraform
 
-Antes de testar, verifique se esta tudo comfigurado.
+Antes de testar, verifique se esta tudo configurado.
 
 Primeiro necessário criar sua chave na AWS, baixar e configurar o AWSCLI
 
