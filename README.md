@@ -1,7 +1,8 @@
 # terraform
-Alguns processos antes de testarmos.
 
-Primeiro precisa criar seu acesso na AWS baixar e configurar o AWSCLI
+Antes de testar, verifique se esta tudo comfigurado.
+
+Primeiro necessário criar sua chave na AWS, baixar e configurar o AWSCLI
 
 Link oficial
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
