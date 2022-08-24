@@ -13,7 +13,7 @@ Link oficial: https://docs.aws.amazon.com/cli/latest/reference/configure/
 Agora precisamos clonar o repositório do git 
 Link oficial: https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository
 
-Agora sim :) podemos comelar os testes.
+Agora sim :) podemos começar os testes.
 
 - terraform init
 - terraform plan
