@@ -1,3 +1,3 @@
-output "acm-teste1" {
-    value = aws_s3_bucket.acm-teste1.arn
+output "acm-my-aws-s3-bucket" {
+    value = aws_s3_bucket.acm-my-aws-s3-bucket.arn
 }

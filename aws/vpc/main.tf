@@ -5,13 +5,14 @@ terraform {
       version = "~> 4.0"
     }
   }
+
 }
 
 provider "aws" {
-  region = var.region
+  region              = var.region
   shared_config_files = ["config-profile"]
-  profile = var.profile
-    default_tags {
-      tags = local.tags-globais
-    }
+  profile             = var.profile
+
 }
+
+

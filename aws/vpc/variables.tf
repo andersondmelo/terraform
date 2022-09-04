@@ -4,12 +4,17 @@ variable "region" {
 }
 
 variable "config-profile" {
-  type = string
+  type    = string
   default = "$HOME/.aws/config"
 }
 
+variable "config-credentials" {
+  type    = string
+  default = "$HOME/.aws/credentials"
+}
+
 variable "profile" {
-  type = string
+  type    = string
   default = "default"
-  
+
 }
