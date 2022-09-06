@@ -1,0 +1,18 @@
+Para manter a segurança do servidor criado pelo terraform importante gerar uma chave pessoal, siga os passos abaixo:
+
+
+Gerando chave no LINUX
+ssh-keygen -t rsa -b 4096 -N '' -C minha-chave -f minha-chave
+
+Gerando chave PPK a partir da chave gerada  
+puttygen minha-chave -o minha-chave.ppk -O private
+
+
+Com a chave gerada copie o conteúdo do arquivo "pub" para o key.pub
+
+Para facilitar deixei uma chave gerada na pasta "chaves-modelo"
+
+ATENÇÂO
+
+A chave modelo e um conteúdo exporto para internet. Então NUNCA use no seu ambiente de produção.
+Eu coloquei somente para TESTE e facilitar.
