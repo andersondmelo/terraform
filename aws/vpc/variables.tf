@@ -1,5 +1,6 @@
 variable "region" {
   description = "Região do recurso"
+  type    = string
   default     = "us-east-1"
 }
 
